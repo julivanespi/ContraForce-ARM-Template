@@ -7,7 +7,7 @@
       "metadata": {
         "description": "Specify a unique name for your offer"
       },
-      "defaultValue": "Security Services"
+      "defaultValue": "ContraForce Security Services"
     },
     "mspOfferDescription": {
       "type": "string",
@@ -16,31 +16,6 @@
       },
       "defaultValue": "Manage all your deployments"
     },
-    //"managedByTenantId": {
-    //    "type": "string",
-    //    "metadata": {
-    //        "description": "Specify the tenant id of the Managed Service Provider"
-    //    },
-    //    "defaultValue": "7a1854c0-403b-41a9-b8c4-55047cda8446"
-    //},
-    //"authorizations": {
-    //    "type": "array",
-    //    "metadata": {
-    //        "description": "Specify an array of objects, containing tuples of Azure Active Directory principalId, a Azure roleDefinitionId, and an optional principalIdDisplayName. The roleDefinition specified is granted to the principalId in the provider's Active Directory and the principalIdDisplayName is visible to customers."
-    //    },
-    //    "defaultValue": [
-    //        {
-    //            "principalId": "a5daad5f-2b67-48ab-a6f3-29aa7c2f6372",
-    //            "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
-    //            "principalIdDisplayName": "Contributors"
-    //        },
-    //        {
-    //            "principalId": "a5daad5f-2b67-48ab-a6f3-29aa7c2f6372",
-    //            "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
-    //            "principalIdDisplayName": "Managed Services Registration assignment Delete Role"
-    //        }
-    //    ]
-    //},
     "rgName": {
       "type": "string",
       "defaultValue": "contraforce-rg",
